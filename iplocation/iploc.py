@@ -6,7 +6,7 @@ try:
     ip = sys.argv[1]
 
     if ip:
-        url = f"http://ip-api.com/xml/{ip}"
+        url = fj"http://ip-api.com/json/{ip}"
 
         #iniciando o request
         request = urlopen(url)
